@@ -3,6 +3,10 @@
   "extends": ["config:recommended"],
   "description": "Renovate configuration for choco-podman-cli",
   "labels": ["dependencies"],
+  "baseBranches": [
+    "main",
+    "release/5.x"
+  ]
   "semanticCommits": "enabled",
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "to {{newVersion}}",

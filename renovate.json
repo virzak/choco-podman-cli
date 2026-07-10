@@ -50,6 +50,11 @@
       "description": "Podman core release",
       "matchDepNames": ["containers/podman"],
       "labels": ["podman-update"]
+    },
+    {
+      "matchBaseBranches": ["release/5.x"],
+      "matchDepNames": ["containers/podman"],
+      "allowedVersions": "/^5\\./"
     }
   ]
 }
